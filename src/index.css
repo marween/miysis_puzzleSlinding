@@ -3,19 +3,58 @@
 }
 
 body {
-  background: whitesmoke ;
-}
-
-#root {
-  width: 100%;
+  background: #F2F2F2 !important   ;
   height: 100%;
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: sans-serif;
 }
 
+.header_fond{
+  max-width: 100%;
+  height: auto;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 58px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.section {
+  background-color:ghostwhite  ;
+  justify-content: flex-start;
+  height: auto;
+  min-height: 89vh;
+  padding: 8vh 5% 4vh;
+  margin-bottom: 25PX;
+
+}
+
+#s1{
+  background-color: #F2D5BB;
+}
+#s2{
+  background-color: #D9AC84;
+}
+#s3{
+  background-color: #F2D5BB;
+}
+#s4{
+  background-color: #D9AC84;
+}
+#s5{
+  background-color: #F2D5BB;
+}
+#s6{
+  background-color: #D9AC84;
+}
+#s7{
+  background-color: #384059;
+}
+
+
+
+/*puzzle */
 .title {
   color: black;
 }
