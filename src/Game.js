@@ -203,6 +203,7 @@ function Game () {
           <button className='big-button' onClick={undo}> UNDO </button>
           <button className='big-button' onClick={newGame}> RESTART </button>
         </div>
+
         <div className='board'>
           {
             board.slice(0,-1).map((pos, index) => (

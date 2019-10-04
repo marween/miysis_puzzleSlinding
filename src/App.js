@@ -9,8 +9,123 @@ function App () {
 
   return (
       <div className='container'>
-        <h1 className='title'>mon super puzzle </h1>
-        <Game />>
+          <h1 className='title'>Formulabs </h1>
+          <section>
+              <h2>
+                  Interfaces processeur-cerveau
+              </h2>
+              <p>Formulabs propose des solutions innovantes dans le cadre le la connexion du cerveau humain et
+                  des dernières technologies CPU. Les études cliniques ont duré plus de vingt années et nos
+                  résultats sont désormais validés. Nos premières interfaces neuronales sont donc dès à présent disponibles.
+              </p>
+          </section>
+          <section>
+              <h2>
+                  La technologie
+              </h2>
+              <p>
+                  L'interface entre le cerveau humain et la puissance de calcul d'un processeur n'est désormais plus un rêve. Les laboratoires de Formulabs ont mis au point un procédé breveté et unique au monde permettant d'implanter une processeur au sein d'un cerveau organique.
+              </p>
+              <p>
+                  La connexion entre l'organe humain et son annexe numérique se fait au travers d'un réseau neuronal arti􏰀ciel intermédiaire qui est posé lors de l'opération. L'installation des composants est sans douleur et parfaitement sans risque.
+              </p>
+              <p>
+                  La technologie Formulabs est 􏰀able et o􏰁re des possibilités absolument incroyables. Nos clients a􏰂chent un taux de satisfaction proche de 100%.
+              </p>
+          </section>
+
+          <section>
+              <h2>
+                  La puce GT2100
+              </h2>
+              <p>
+                  Notre gamme actuelle comprend un processeur unique, le GT2100. Il o􏰁re une puissance de calcul d e 841,73 GFLOPS. Cette puce est produite dans des conditions très stricte et dans des matériaux bio-compatibles évitant tout risque de rejet.
+              </p>
+              <p>
+                  La puce GT2100 est aussi doté d'un récepteur TMZ permettant des updates réguliers sans aucun risque de nuisances pour le corps. Cette puce est un produit unique sur le marché, elle constitue une révolution majeur dans le domaine des neuro- sciences.
+              </p>
+          </section>
+
+          <section>
+              <h2>
+                  Les avantages du Formulabs GT2100
+              </h2>
+              <p>
+                  L'installation de la puce GT2100 permet l'augmentation de nombreuses facultés du cerveau. En voici une liste non exhaustive:
+              </p>
+
+              <ul>
+                  <li>Augmentation du nombre de couleurs perçues et de la netteté générale</li>
+                  <li>Capacité artistiques augmentées jusqu'à 750%</li>
+                  <li>Possibilité de travailler en multitâche et donc de gagner un temps précieux</li>
+                  <li>Capacité maximale de calcul numérique</li>
+                  <li>Possibilité d'une connexion Internet donnant accès à des milliards d'informations</li>
+                  <li>Capacités logiques décuplées</li>
+              </ul>
+          </section>
+          <section>
+              <h2>
+                  Test de logique Avant - Après
+              </h2>
+              <p>
+                  Voici un test de logique développé pour vous permettre d'évaluer concrètement le gain o􏰁ert par la puce GT2100. Reconstituer le puzzle suivant, prend en moyenne 2,1 secondes à nos clients augmentés.
+              </p>
+              <p> Vous pouvez facilement tester vos capacités actuelles afin de mieux apprécier les avantages liés à l'augmentation.</p>
+              <p> Voici le test, veillez à bien noter votre temps: </p>
+              <Game />
+          </section>
+
+          <section>
+              <h2>
+                  Aspects légaux liés à l'augmentation
+              </h2>
+              <p>
+                  Le cerveau est donc couplé au processeur Formulabs. Notre client est donc considéré dès l'installation de notre puce, dans la catégorie des humains augmentés. Veuillez noter que cela n'a􏰁ectera en rien vos droits et devoirs en tant que citoyen dans votre pays.
+              </p>
+              <p>
+                  Il est tout de même obligatoire de vous enregistrer au service international de répertorisation des augmentations non biologiques. C'est une démarche administrative simple dont nous pouvons nous occuper sur demande.
+              </p>
+              <p>
+                  Vos futurs employeurs seront systématiquement averti de votre Augmentation, ce qui est souvent considéré comme un atout non négligeable.
+              </p>
+          </section>
+          <section>
+              <h2>
+                  Formulaire de contact
+              </h2>
+              <p>
+                  Si vous souhaitez nous rencontrer ou simplement obtenir plus d'information sur nos services, merci de remplir ce formulaire:
+              </p>
+              <form action="" method="post">
+                  <div>
+                      <label
+                          htmlFor="name">Nom :</label>
+                      <input
+                          type="text"
+                          id="name"
+                          name="user_name" />
+                  </div>
+                  <div>
+                      <label
+                          htmlFor="mail">e-mail :</label>
+                      <input
+                          type="email"
+                          id="mail"
+                          name="user_mail"/>
+                  </div>
+                  <div>
+                      <label
+                          htmlFor="msg">Message :</label>
+                      <textarea
+                          id="msg"
+                          name="user_message">
+
+                      </textarea>
+                  </div>
+              </form>
+          </section>
+
+
       </div>
   );
 }
