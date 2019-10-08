@@ -1,86 +1,63 @@
 html {
   height: 100%;
-  overflow: hidden;
+  width: 100%;
 }
-
 body {
   background: #F2F2F2 !important   ;
   margin:0;
   padding:0;
-  perspective: 1px;
-  transform-style: preserve-3d;
   height: 100%;
+  width: 100%;;
   overflow-y: scroll;
-  overflow-x: hidden;
+  
+}
+/*entete de la page */
+.header_fond{
+  background-image: url(./images/pexels-photo-926987.jpg) ;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px
+
+}
+#name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #BF8892;
 }
 
+h1 {
+  transform: translateZ(.25px) scale(.75);
+  transform-origin: 50% 100%;
+  text-decoration: underline;
+
+}
+
+/* les slides*/
 .slide {
-  position: relative;
-  padding: 25vh 10%;
-  min-height: 150vh;
+  padding: 10vh 10%;
+  min-height: 140vh;
   width: 100vw;
   box-sizing: border-box;
   transform-style: inherit;
 }
 
 .img {
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  width: 320px;
-  height: 240px;
-  transform: translateZ(.25px) scale(.80) translateX(-94%) translateY(-40%) rotate(2deg);
+  max-width: 320px;
+  height: auto;
   padding: 10px;
+  margin-top: 20px;
+  margin-right: 120px;
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
-.img:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(50%) translateY(-40%) rotate(-5deg);
-}
-
-.slide:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
-}
-
-.slide:nth-child(2n) .title {
-  margin-left: 0;
-  margin-right: auto;
-}
-
-.slide:nth-child(2n+1) .title {
-  margin-left: auto;
-  margin-right: 0;
-}
-
-.slide, .slide:before {
-  background: 50% 50% / cover;
-}
-
-.header {
-  text-align: center;
-  font-size: 175%;
-  color: #fff;
-  text-shadow: 0 2px 2px #000;
-}
-
-#title {
-  background-image: url("https://lorempixel.com/640/480/abstract/6/");
-  z-index:2;
-}
-
-#title h1 {
-  transform: translateZ(.25px) scale(.75);
-  transform-origin: 50% 100%;
-
-}
 #s1{
   background-color: #D8D9D7;
 
@@ -104,31 +81,21 @@ body {
   background-color: #2A4359;
 }
 
-
-/*entete de la page */
-img.header_fond{
-  max-width: 100%;
-  min-height: 150vh;
-}
-.ptitle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 58px;
-  font-family: 'Permanent Marker', cursive;
-}
-
 /*puzzle */
 .title {
   color: black;
 }
 
 .game-container {
-  width: 405px;
-  height: 505px;
-  background: #D8D9D7;
-  outline: 1px black solid;
+  width: 425px;
+  height: 525px;
+  background: #BFA893;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 120px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
 .game-header {
@@ -144,7 +111,7 @@ img.header_fond{
   width: 150px;
   height: 100px;
   padding: 5px;
-  padding-top: 40px;
+  padding-top: 20px;
   position: relative;
   line-height: 50px;
   font-size: 36px;
@@ -169,11 +136,7 @@ img.header_fond{
   height: 30px;
   line-height: 15px;
   font-size: 15px;
-  background: #A6BF93;
   padding: 10px;
-
-
-
 }
 
 .board {

@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState,  useEffect} from 'react';
 import './App.css';
 import './index.js';
 import ReactDOM from "react-dom";
@@ -172,8 +172,10 @@ function useGameState () {
     }
   }
 
+
   return [state.board, state.moves, state.solved, newGame, undo, move];
 }
+
 
 
 //_______________________________________________
@@ -211,7 +213,7 @@ function Game () {
                     key={index}
                     index={index}
                     pos={pos}
-                    onClick={move(index)} />
+                    onClick={move(index)}/>
             ))
           }
           { solved &&
