@@ -13,6 +13,7 @@ import puce2 from './images/photo-1555616635-640b71bdb185.jpg';
 import labo from './images/pexels-photo-267596.jpg'
 import cerveau from './images/photo-1559757148-5c350d0d3c56.jpg'
 import color from './images/pexels-photo-2017481.jpg'
+import puzzle from './images/Puzzle.jpg'
 
 function App() {
 
@@ -130,12 +131,12 @@ function App() {
                 <div className='title '>
                     <h2 className='sTitle'>Test de logique Avant - Après</h2>
                     <hr/>
-                    <p data-aos="fade-up" className="aos-animate" >
+                    <p data-aos="fade-up"  >
                         Voici un test de logique développé pour vous permettre d'évaluer concrètement le gain o􏰁ert
                         par la puce GT2100. Reconstituer le puzzle suivant, prend en moyenne 2,1 secondes à nos clients
                         augmentés.
                     </p >
-                    <p data-aos="fade-up" className="aos-animate" > Vous pouvez facilement tester vos capacités actuelles afin de mieux apprécier les avantages
+                    <p data-aos="fade-up" > Vous pouvez facilement tester vos capacités actuelles afin de mieux apprécier les avantages
                         liés à l'augmentation.</p>
                     <p> Voici le test, veillez à bien noter votre temps: </p>
                     <Game/>
