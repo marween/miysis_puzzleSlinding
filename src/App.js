@@ -148,34 +148,25 @@ function App() {
                     <h2 className='sTitle'>Formulaire de contact</h2>
                     <hr/>
                     <p>
-                        Si vous souhaitez nous rencontrer ou simplement obtenir plus d'information sur nos services,
-                        merci de remplir ce formulaire:
+                        Si vous souhaitez nous rencontrer ou simplement obtenir plus d'information sur nos services, merci de remplir ce formulaire:
                     </p>
-                    <form action="" method="post">
-                        <div>
-                            <label
-                                htmlFor="name">Nom :</label>
-                            <input
-                                type="text"
-                                id="name"
-                                name="user_name"/>
-                        </div>
-                        <div>
-                            <label
-                                htmlFor="mail">e-mail :</label>
-                            <input
-                                type="email"
-                                id="mail"
-                                name="user_mail"/>
-                        </div>
-                        <div>
-                            <label
-                                htmlFor="msg">Message :</label>
-                            <textarea
-                                id="msg"
-                                name="user_message">
 
-                          </textarea>
+                    <form role="form">
+                        <div className="form-group col-lg-4">
+                            <label className="form-control-label" htmlFor="form-group-input">Nom</label>
+                            <input type="text" className="form-control" id="form-group-input" name="name" />
+                        </div>
+                        <div className="form-group col-lg-4">
+                            <label className="form-control-label" htmlFor="form-group-input">Prenom</label>
+                            <input type="text" className="form-control" id="form-group-input" name="name" />
+                        </div>
+                        <div className="form-group col-lg-4">
+                            <label className="form-control-label" htmlFor="form-group-input">Email</label>
+                            <input type="text" className="form-control" id="form-group-input" name="email"/>
+                        </div>
+                        <div className="form-group col-lg-12">
+                            <label className="form-control-label" htmlFor="form-group-input">Message</label>
+                            <textarea className="form-control" id="form-group-input" name="notes" rows="6"></textarea>
                         </div>
                     </form>
                 </div>
