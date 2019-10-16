@@ -169,3 +169,8 @@ h1 {
   background-image: url('images/Puzzle.jpg');
   background-size: 300px 300px;
 }
+
+/* form */
+#s7 p, #s7 h2, form label {
+  color: white;
+}

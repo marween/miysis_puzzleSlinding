@@ -1,19 +1,18 @@
-import React, {useEffect} from "react";
+import React  from "react";
 import './App.css';
 import './index.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
 import Game from './Game.js'
-import background from './images/pexels-photo-926987.jpg';
-import gt from './images/photo-1555616635-640b71bdb185.jpg';
+import Contact from './Contact.js'
 import head from './images/pexels-photo-724994.jpg';
 import puce from './images/pexels-photo-2582937.jpg';
 import puce2 from './images/photo-1555616635-640b71bdb185.jpg';
 import labo from './images/pexels-photo-267596.jpg'
 import cerveau from './images/photo-1559757148-5c350d0d3c56.jpg'
 import color from './images/pexels-photo-2017481.jpg'
-import puzzle from './images/Puzzle.jpg'
+
 
 function App() {
 
@@ -32,7 +31,7 @@ function App() {
             // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
             offset: 120, // offset (in px) from the original trigger point
             delay: 0, // values from 0 to 3000, with step 50ms
-            duration: 1200, // values from 0 to 3000, with step 50ms
+            duration: 3000, // values from 0 to 3000, with step 50ms
             easing: 'ease', // default easing for AOS animations
             once: false, // whether animation should happen only once - while scrolling down
             mirror: false, // whether elements should animate out while scrolling past them
@@ -57,7 +56,7 @@ function App() {
                         résultats sont désormais validés. Nos premières interfaces neuronales sont donc dès à
                         présent disponibles.
                     </p>
-                <img data-aos="flip-left" className=' img ' src={head}/>
+                <img data-aos="flip-left" className=' img ' src={head} alt="tête"/>
 
             </section>
 
@@ -74,14 +73,14 @@ function App() {
                 </p >
                 <p data-aos="fade-up" className="aos-animate" >
                     La connexion entre l'organe humain et son annexe numérique se fait au travers d'un réseau
-                    neuronal arti􏰀ciel intermédiaire qui est posé lors de l'opération. L'installation des
+                    neuronal artificiel intermédiaire qui est posé lors de l'opération. L'installation des
                     composants est sans douleur et parfaitement sans risque.
                 </p>
                 <p data-aos="fade-up" className="aos-animate" >
-                    La technologie Formulabs est 􏰀able et o􏰁re des possibilités absolument incroyables. Nos
-                    clients a􏰂chent un taux de satisfaction proche de 100%.
+                    La technologie Formulabs est stable et offre des possibilités absolument incroyables. Nos
+                    clients attachent un taux de satisfaction proche de 100%.
                 </p>
-                <img data-aos="flip-left" className=' img ' src={labo}/>
+                <img data-aos="flip-left" className=' img ' src={labo}  alt="labo"/>
             </section>
 
             <section id="s3" className='slide'>
@@ -91,7 +90,7 @@ function App() {
 
                 </div>
                 <p data-aos="fade-up" className="aos-animate" >
-                    Notre gamme actuelle comprend un processeur unique, le GT2100. Il o􏰁re une puissance de calcul
+                    Notre gamme actuelle comprend un processeur unique, le GT2100. Il offre une puissance de calcul
                     d e 841,73 GFLOPS. Cette puce est produite dans des conditions très stricte et dans des
                     matériaux bio-compatibles évitant tout risque de rejet.
                 </p>
@@ -100,8 +99,8 @@ function App() {
                     risque de nuisances pour le corps. Cette puce est un produit unique sur le marché, elle
                     constitue une révolution majeur dans le domaine des neuro- sciences.
                 </p>
-                <img data-aos="flip-left" className='  img' src={puce}/>
-                <img data-aos="flip-right" className=' img ' src={puce2}/>
+                <img data-aos="flip-left" className='  img' src={puce}  alt="puce"/>
+                <img data-aos="flip-right" className=' img ' src={puce2}  alt="puce"/>
 
             </section>
 
@@ -124,7 +123,7 @@ function App() {
                     <li data-aos="fade-up" className="aos-animate" >Possibilité d'une connexion Internet donnant accès à des milliards d'informations</li>
                     <li data-aos="fade-up" className="aos-animate" >Capacités logiques décuplées</li>
                 </ul>
-                <img data-aos="flip-left" className=' img ' src={color}/>
+                <img data-aos="flip-left" className=' img ' src={color}  alt="face_color"/>
 
             </section>
             <section id="s5" className='slide'>
@@ -132,7 +131,7 @@ function App() {
                     <h2 className='sTitle'>Test de logique Avant - Après</h2>
                     <hr/>
                     <p data-aos="fade-up"  >
-                        Voici un test de logique développé pour vous permettre d'évaluer concrètement le gain o􏰁ert
+                        Voici un test de logique développé pour vous permettre d'évaluer concrètement le gain offert
                         par la puce GT2100. Reconstituer le puzzle suivant, prend en moyenne 2,1 secondes à nos clients
                         augmentés.
                     </p >
@@ -154,7 +153,7 @@ function App() {
                 <p data-aos="fade-up" className="aos-animate" >
                     Le cerveau est donc couplé au processeur Formulabs. Notre client est donc considéré dès
                     l'installation de notre puce, dans la catégorie des humains augmentés. Veuillez noter que cela
-                    n'a􏰁ectera en rien vos droits et devoirs en tant que citoyen dans votre pays.
+                    n'affectera en rien vos droits et devoirs en tant que citoyen dans votre pays.
                 </p>
                 <p data-aos="fade-up" className="aos-animate" >
                     Il est tout de même obligatoire de vous enregistrer au service international de
@@ -165,35 +164,18 @@ function App() {
                     Vos futurs employeurs seront systématiquement averti de votre Augmentation, ce qui est souvent
                     considéré comme un atout non négligeable.
                 </p>
-                <img data-aos="flip-right" className=' img ' src={cerveau}/>
+                <img data-aos="flip-right" className=' img ' src={cerveau}  alt="brain"/>
 
             </section>
             <section id="s7" className='slide'>
                 <div className='title '>
                     <h2 className='sTitle'>Formulaire de contact</h2>
                     <hr/>
-                    <p>
+                    <p data-aos="fade-up" >
                         Si vous souhaitez nous rencontrer ou simplement obtenir plus d'information sur nos services, merci de remplir ce formulaire:
                     </p>
+                    <Contact/>
 
-                    <form role="form">
-                        <div className="form-group col-lg-4">
-                            <label className="form-control-label" htmlFor="form-group-input">Nom</label>
-                            <input type="text" className="form-control" id="form-group-input" name="name" />
-                        </div>
-                        <div className="form-group col-lg-4">
-                            <label className="form-control-label" htmlFor="form-group-input">Prenom</label>
-                            <input type="text" className="form-control" id="form-group-input" name="name" />
-                        </div>
-                        <div className="form-group col-lg-4">
-                            <label className="form-control-label" htmlFor="form-group-input">Email</label>
-                            <input type="text" className="form-control" id="form-group-input" name="email"/>
-                        </div>
-                        <div className="form-group col-lg-12">
-                            <label className="form-control-label" htmlFor="form-group-input">Message</label>
-                            <textarea className="form-control" id="form-group-input" name="notes" rows="6"></textarea>
-                        </div>
-                    </form>
                 </div>
             </section>
         </div>
