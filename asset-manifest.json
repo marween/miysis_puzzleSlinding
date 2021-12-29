@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/miysis_puzzleSlinding/static/css/main.e0eba3c4.chunk.css",
+    "main.js": "/miysis_puzzleSlinding/static/js/main.d95ad16d.chunk.js",
+    "main.js.map": "/miysis_puzzleSlinding/static/js/main.d95ad16d.chunk.js.map",
+    "runtime-main.js": "/miysis_puzzleSlinding/static/js/runtime-main.46a46d48.js",
+    "runtime-main.js.map": "/miysis_puzzleSlinding/static/js/runtime-main.46a46d48.js.map",
+    "static/css/2.f7be851e.chunk.css": "/miysis_puzzleSlinding/static/css/2.f7be851e.chunk.css",
+    "static/js/2.a55fb585.chunk.js": "/miysis_puzzleSlinding/static/js/2.a55fb585.chunk.js",
+    "static/js/2.a55fb585.chunk.js.map": "/miysis_puzzleSlinding/static/js/2.a55fb585.chunk.js.map",
+    "index.html": "/miysis_puzzleSlinding/index.html",
+    "precache-manifest.92b378177b2d6a5449e8d14977d7c496.js": "/miysis_puzzleSlinding/precache-manifest.92b378177b2d6a5449e8d14977d7c496.js",
+    "service-worker.js": "/miysis_puzzleSlinding/service-worker.js",
+    "static/css/2.f7be851e.chunk.css.map": "/miysis_puzzleSlinding/static/css/2.f7be851e.chunk.css.map",
+    "static/css/main.e0eba3c4.chunk.css.map": "/miysis_puzzleSlinding/static/css/main.e0eba3c4.chunk.css.map",
+    "static/media/index.css": "/miysis_puzzleSlinding/static/media/pexels-photo-926987.a106cba5.jpg",
+    "static/media/pexels-photo-2017481.jpg": "/miysis_puzzleSlinding/static/media/pexels-photo-2017481.5d4a3c7a.jpg",
+    "static/media/pexels-photo-2582937.jpg": "/miysis_puzzleSlinding/static/media/pexels-photo-2582937.317381e1.jpg",
+    "static/media/pexels-photo-267596.jpg": "/miysis_puzzleSlinding/static/media/pexels-photo-267596.1c8a4794.jpg",
+    "static/media/pexels-photo-724994.jpg": "/miysis_puzzleSlinding/static/media/pexels-photo-724994.c9658d69.jpg",
+    "static/media/photo-1555616635-640b71bdb185.jpg": "/miysis_puzzleSlinding/static/media/photo-1555616635-640b71bdb185.b70f36af.jpg",
+    "static/media/photo-1559757148-5c350d0d3c56.jpg": "/miysis_puzzleSlinding/static/media/photo-1559757148-5c350d0d3c56.0dca93b3.jpg"
+  }
+}
